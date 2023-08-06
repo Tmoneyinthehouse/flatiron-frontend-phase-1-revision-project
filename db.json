@@ -1,12 +1,9 @@
+//add more players once we establish cards//
+
 {
     "players": [
-        {
-            "id":,
-            "playername":,
-            "pointspergame":,
-            "assistspergame":,
-            "reboundspergame":,
-        },
-        {
-    ]
+        { "name":, "pointspergame":, "assistspergame":, "reboundspergame"},
+        { "name":, "pointspergame":, "assistspergame":, "reboundspergame"},
+        { "name":, "pointspergame":, "assistspergame":, "reboundspergame"},
+        ]
 }
