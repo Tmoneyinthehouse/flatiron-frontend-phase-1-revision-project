@@ -2,7 +2,7 @@
 
 {
     "players": [
-        { "name":, "pointspergame":, "assistspergame":, "reboundspergame"},
+        { "name": "Kyrie Irving", "pointspergame": "27.1", "assistspergame": "6", "reboundspergame": "5"},
         { "name":, "pointspergame":, "assistspergame":, "reboundspergame"},
         { "name":, "pointspergame":, "assistspergame":, "reboundspergame"},
         ]
