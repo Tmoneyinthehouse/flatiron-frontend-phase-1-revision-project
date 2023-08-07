@@ -2,7 +2,7 @@ console.log("connected");
 
 // Function to fetch data from JSON file
 
-async function fetchData(url) {
+async function fetchPlayerData(url) {
   try {
     const resp = await fetch(url);
     const data = await resp.json();
@@ -51,11 +51,11 @@ function createPlayerCard(player) {
 // Function to display player cards with JSON data
 
 async function displayPlayerCards() {
-  const url = "db.json";
+  const url = "http://localhost:3000/players";
   const playerContainer = document.getElementById("playerContainer");
 
   try {
-    const data = await fetchData("http://localhost:3000/players");
+    const data = await fetchPlayerData(url);
     data.players.forEach((player) => {
       const newPlayerCard = createPlayerCard(player);
       playerContainer.appendChild(newPlayerCard);
