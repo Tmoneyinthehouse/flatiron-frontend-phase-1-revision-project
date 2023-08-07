@@ -55,6 +55,8 @@ async function displayPlayerCards() {
   try {
     const data = await fetchPlayerData(url);
 
+    console.log("Fetched data:", data);
+
     if (Array.isArray(data) && data.hasOwnProperty("players")) {
       data.players.forEach((player) => {
         const newPlayerCard = createPlayerCard(player);
