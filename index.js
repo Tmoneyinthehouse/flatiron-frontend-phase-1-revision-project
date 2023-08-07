@@ -2,24 +2,24 @@ console.log("connected");
 
 // Function to fetch data from JSON file
 
-async function fetchPlayerData(url); {
+async function fetchData(url) {
   try {
     const resp = await fetch(url);
     const data = await resp.json();
     return data;
   } catch (error) {
-    console.error('Error fetching data:', error);
+    console.error("Error fetching data:", error);
     return [];
   }
 }
 
 const url = "http://localhost:3000/players";
 fetchPlayerData(url)
-  .then(data => {
+  .then((data) => {
     console.log(data);
   })
-  .catch(error => {
-    console.error('Error:', error);
+  .catch((error) => {
+    console.error("Error:", error);
   });
 
 // Function to create a dynamic player card element
@@ -51,17 +51,17 @@ function createPlayerCard(player) {
 // Function to display player cards with JSON data
 
 async function displayPlayerCards() {
-  const url = 'db.json';
-  const playerContainer = document.getElementById('playerContainer');
+  const url = "db.json";
+  const playerContainer = document.getElementById("playerContainer");
 
   try {
     const data = await fetchData("http://localhost:3000/players");
-    data.players.forEach(player => {
+    data.players.forEach((player) => {
       const newPlayerCard = createPlayerCard(player);
       playerContainer.appendChild(newPlayerCard);
     });
   } catch (error) {
-    console.error('Error displaying player cards:', error);
+    console.error("Error displaying player cards:", error);
   }
 }
 
