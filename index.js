@@ -2,9 +2,9 @@ console.log("connected");
 
 // Function to fetch data from JSON file
 
-async function fetchData("http://localhost:3000/players") {
+async function fetchPlayerData(url); {
   try {
-    const resp = await fetch("http://localhost:3000/players");
+    const resp = await fetch(url);
     const data = await resp.json();
     return data;
   } catch (error) {
@@ -12,6 +12,15 @@ async function fetchData("http://localhost:3000/players") {
     return [];
   }
 }
+
+const url = "http://localhost:3000/players";
+fetchPlayerData(url)
+  .then(data => {
+    console.log(data);
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
 
 // Function to create a dynamic player card element
 
