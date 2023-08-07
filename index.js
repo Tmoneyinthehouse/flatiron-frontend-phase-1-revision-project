@@ -1,5 +1,3 @@
-console.log("connected");
-
 // Function to fetch data from JSON file
 
 async function fetchPlayerData(url) {
@@ -56,10 +54,15 @@ async function displayPlayerCards() {
 
   try {
     const data = await fetchPlayerData(url);
-    data.players.forEach((player) => {
-      const newPlayerCard = createPlayerCard(player);
-      playerContainer.appendChild(newPlayerCard);
-    });
+
+    if (Array.isArray(data) && data.hasOwnProperty("players")) {
+      data.players.forEach((player) => {
+        const newPlayerCard = createPlayerCard(player);
+        playerContainer.appendChild(newPlayerCard);
+      });
+    } else {
+      console.error("Error displaying player cards: Invalid data format");
+    }
   } catch (error) {
     console.error("Error displaying player cards:", error);
   }
