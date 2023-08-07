@@ -57,8 +57,8 @@ async function displayPlayerCards() {
 
     console.log("Fetched data:", data);
 
-    if (Array.isArray(data) && data.hasOwnProperty("players")) {
-      data.players.forEach((player) => {
+    if (Array.isArray(data) && data.length > 0) {
+      data.forEach((player) => {
         const newPlayerCard = createPlayerCard(player);
         playerContainer.appendChild(newPlayerCard);
       });
