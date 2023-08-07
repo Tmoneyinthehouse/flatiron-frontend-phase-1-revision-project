@@ -49,6 +49,7 @@ function createPlayerCard(player) {
   card.appendChild(pointsPerGame);
   card.appendChild(assistsPerGame);
   card.appendChild(reboundsPerGame);
+  card.appendChild(displayStatsButton);
 
   return card;
 }
