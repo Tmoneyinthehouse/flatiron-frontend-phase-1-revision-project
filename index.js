@@ -39,20 +39,7 @@ function createPlayerCard(player) {
   reboundsPerGame.textContent = "Rebounds Per Game: " + player.reboundspergame;
 
   //Event listener that displays a player's stats upon click of button on card
-  const displayStatsButton = document.createElement("button");
-  displayStatsButton.textContent = "Display Stats";
-  displayStatsButton.addEventListener("click", () => {
-    displayPlayerStats(player);
-  });
-
-  card.appendChild(playerName);
-  card.appendChild(pointsPerGame);
-  card.appendChild(assistsPerGame);
-  card.appendChild(reboundsPerGame);
-  card.appendChild(displayStatsButton);
-
-  return card;
-}
+ 
 
 // Function to display player cards with JSON data
 
