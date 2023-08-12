@@ -29,6 +29,10 @@ function createPlayerCard(player) {
   const playerName = document.createElement("h2");
   playerName.textContent = "Player Name: " + player.name;
 
+  const playerImage = document.createElement("img");
+  playerImage.src = player.image;
+  playerImage.alt = player.name + "Image";
+
   const pointsPerGame = document.createElement("p");
   pointsPerGame.textContent = "Points Per Game: " + player.pointspergame;
 
