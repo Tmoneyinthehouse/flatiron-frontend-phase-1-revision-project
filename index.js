@@ -52,8 +52,18 @@ function createPlayerCard(player) {
     } else {
       statsContainer.style.display = "none";
     }
-});
- 
+  });
+
+  statsContainer.appendChild(pointsPerGame);
+  statsContainer.appendChild(assistsPerGame);
+  statsContainer.appendChild(reboundsPerGame);
+
+  card.appendChild(playerName);
+  card.appendChild(toggleStatsButton);
+  card.appendChild(statsContainer);
+
+  return card;
+}
 
 // Function to display player cards with JSON data
 
