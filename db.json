@@ -4,19 +4,22 @@
       "name": "Kyrie Irving",
       "pointspergame": "27.1",
       "assistspergame": "6",
-      "reboundspergame": "5"
+      "reboundspergame": "5",
+      "image":
     },
     {
       "name": "Donovan Mitchell",
       "pointspergame": "28.3",
       "assistspergame": "4.4",
-      "reboundspergame": "4.3"
+      "reboundspergame": "4.3",
+      "image":
     },
     {
       "name": "Giannis Antetokounmpo",
       "pointspergame": "31.1",
       "assistspergame": "5.7",
-      "reboundspergame": "11.8"
+      "reboundspergame": "11.8",
+      "image":
     }
   ]
 }
