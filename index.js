@@ -11,8 +11,8 @@ async function fetchPlayerData(url) {
   }
 }
 
-const url = "http://localhost:3000/players";
-fetchPlayerData(url)
+fetch("http://localhost:3000/players")
+  .then((resp) => resp.json())
   .then((data) => {
     console.log(data);
   })
@@ -52,6 +52,13 @@ function createPlayerCard(player) {
   card.appendChild(displayStatsButton);
 
   return card;
+}
+
+function displayPlayerStats(player) {
+  alert(`Player: ${player.name}
+  Points Per Game: ${player.pointspergame}
+  Assists Per Game: ${player.assistspergame}
+  Rebounds Per Game: ${player.reboundspergame}`);
 }
 
 // Function to display player cards with JSON data
