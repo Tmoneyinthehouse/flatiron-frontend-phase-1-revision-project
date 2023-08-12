@@ -38,7 +38,10 @@ function createPlayerCard(player) {
   const reboundsPerGame = document.createElement("p");
   reboundsPerGame.textContent = "Rebounds Per Game: " + player.reboundspergame;
 
-  //Event listener that displays a player's stats upon click of button on card
+  // Container for the stats
+  const statsContainer = document.createElement("div");
+  statsContainer.classList.add("stats-container");
+  statsContainer.style.display = "none";
  
 
 // Function to display player cards with JSON data
