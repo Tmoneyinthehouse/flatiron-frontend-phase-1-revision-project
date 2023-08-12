@@ -42,6 +42,17 @@ function createPlayerCard(player) {
   const statsContainer = document.createElement("div");
   statsContainer.classList.add("stats-container");
   statsContainer.style.display = "none";
+
+  // Button that shows and hides the stats of each player on respective card
+  const toggleStatsButton = document.createElement("button");
+  toggleStatsButton.textContent = "Toggle Stats";
+  toggleStatsButton.addEventListener("click", () => {
+    if (statsContainer.style.display === "none") {
+      statsContainer.style.display = "block";
+    } else {
+      statsContainer.style.display = "none";
+    }
+});
  
 
 // Function to display player cards with JSON data
