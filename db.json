@@ -5,70 +5,70 @@
       "pointspergame": "27.1",
       "assistspergame": "6",
       "reboundspergame": "5",
-      "image":
+      "image": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/08/05/16912326830713.jpg"
     },
     {
       "name": "Donovan Mitchell",
       "pointspergame": "28.3",
       "assistspergame": "4.4",
       "reboundspergame": "4.3",
-      "image":
+      "image": "https://cdn.vox-cdn.com/thumbor/gc3D5oWpRlpdNhW6GKjcAg1s1Ec=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/24388629/1453889397.jpg"
     },
     {
       "name": "Giannis Antetokounmpo",
       "pointspergame": "31.1",
       "assistspergame": "5.7",
       "reboundspergame": "11.8",
-      "image":
+      "image": "https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_xy_center%2Cq_auto:good%2Cw_1200%2Cx_1840%2Cy_769/MTk4OTM5Nzc5MzUyNTA0MDcx/giannis-antetokounmpo.jpg"
     },
     {
       "name": "Kevin Durant",
       "pointspergame": "29.1",
       "assistspergame": "5",
       "reboundspergame": "6.7",
-      "image":
+      "image": "https://athlonsports.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk3NTczOTQ4MzQ1NDI3NjQ4/kdurant153.jpg"
     },
     {
       "name": "Jayson Tatum",
       "pointspergame": "30.1",
       "assistspergame": "4.6",
       "reboundspergame": "8.8",
-      "image":
+      "image": "https://gray-wabi-prod.cdn.arcpublishing.com/resizer/bObvXNidYWa-qGaSfZx2A1cXhGM=/1200x1800/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/5GWSVGB6SRPVDF6BQBS346WEBM.jpg"
     },
     {
       "name": "Nikola Jokic",
       "pointspergame": "24.5",
       "assistspergame": "9.8",
       "reboundspergame": "11.8",
-      "image":
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Nikola_Jokic_free_throw_%28cropped%29.jpg/800px-Nikola_Jokic_free_throw_%28cropped%29.jpg"
     },
     {
       "name": "Joel Embiid",
       "pointspergame": "33.1",
       "assistspergame": "4.2",
       "reboundspergame": "10.2",
-      "image":
+      "image": "https://cdn.vox-cdn.com/thumbor/l1FOyN_E7pEiDe0Ki4i6_q_2WuM=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/24628629/1482982578.jpg"
     },
     {
       "name": "Julius Randle",
       "pointspergame": "25.1",
       "assistspergame": "4.1",
       "reboundspergame": "10",
-      "image":
+      "image": "https://gray-wvue-prod.cdn.arcpublishing.com/resizer/odskyHqtMKkrzvdek5EHY4NFv7w=/1200x1800/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/CHIJQVISFBJAJMUIEPRAFZOMIA.jpg"
     },
     {
       "name": "LeBron James",
       "pointspergame": "28.9",
       "assistspergame": "6.8",
       "reboundspergame": "8.3",
-      "image":
+      "image": "https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk4MTYzNjYyNjU1OTg4ODA4/lebron-james-nuggets.jpg"
     },
     {
       "name": "Stephen Curry",
       "pointspergame": "29.4",
       "assistspergame": "6.3",
       "reboundspergame": "6.1",
-      "image":
-    },
+      "image": "https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk4OTk2NzQ2NDU2NTQxMTQw/stephencurry.jpg"
+    }
   ]
 }
