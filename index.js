@@ -32,6 +32,7 @@ function createPlayerCard(player) {
   const playerImage = document.createElement("img");
   playerImage.src = player.image;
   playerImage.alt = player.name + "Image";
+  playerImage.classList.add("player-image");
 
   const pointsPerGame = document.createElement("p");
   pointsPerGame.textContent = "Points Per Game: " + player.pointspergame;
@@ -63,6 +64,7 @@ function createPlayerCard(player) {
   statsContainer.appendChild(reboundsPerGame);
 
   card.appendChild(playerName);
+  card.appendChild(playerImage);
   card.appendChild(toggleStatsButton);
   card.appendChild(statsContainer);
 
