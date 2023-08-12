@@ -27,16 +27,16 @@ function createPlayerCard(player) {
   card.classList.add("player-card");
 
   const playerName = document.createElement("h2");
-  playerName.textContent = player.name;
+  playerName.textContent = "Player Name: " + player.name;
 
   const pointsPerGame = document.createElement("p");
-  pointsPerGame.textContent = `Points Per Game: ${player.pointspergame}`;
+  pointsPerGame.textContent = "Points Per Game: " + player.pointspergame;
 
   const assistsPerGame = document.createElement("p");
-  assistsPerGame.textContent = `Assists Per Game: ${player.assistspergame}`;
+  assistsPerGame.textContent = "Assists Per Game: " + player.assistspergame;
 
   const reboundsPerGame = document.createElement("p");
-  reboundsPerGame.textContent = `Rebounds Per Game: ${player.reboundspergame}`;
+  reboundsPerGame.textContent = "Rebounds Per Game: " + player.reboundspergame;
 
   //Event listener that displays a player's stats upon click of button on card
   const displayStatsButton = document.createElement("button");
