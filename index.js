@@ -54,13 +54,6 @@ function createPlayerCard(player) {
   return card;
 }
 
-function displayPlayerStats(player) {
-  alert(`Player: ${player.name}
-  Points Per Game: ${player.pointspergame}
-  Assists Per Game: ${player.assistspergame}
-  Rebounds Per Game: ${player.reboundspergame}`);
-}
-
 // Function to display player cards with JSON data
 
 async function displayPlayerCards() {
