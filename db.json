@@ -20,6 +20,55 @@
       "assistspergame": "5.7",
       "reboundspergame": "11.8",
       "image":
-    }
+    },
+    {
+      "name": "Kevin Durant",
+      "pointspergame": "29.1",
+      "assistspergame": "5",
+      "reboundspergame": "6.7",
+      "image":
+    },
+    {
+      "name": "Jayson Tatum",
+      "pointspergame": "30.1",
+      "assistspergame": "4.6",
+      "reboundspergame": "8.8",
+      "image":
+    },
+    {
+      "name": "Nikola Jokic",
+      "pointspergame": "24.5",
+      "assistspergame": "9.8",
+      "reboundspergame": "11.8",
+      "image":
+    },
+    {
+      "name": "Joel Embiid",
+      "pointspergame": "33.1",
+      "assistspergame": "4.2",
+      "reboundspergame": "10.2",
+      "image":
+    },
+    {
+      "name": "Julius Randle",
+      "pointspergame": "25.1",
+      "assistspergame": "4.1",
+      "reboundspergame": "10",
+      "image":
+    },
+    {
+      "name": "LeBron James",
+      "pointspergame": "28.9",
+      "assistspergame": "6.8",
+      "reboundspergame": "8.3",
+      "image":
+    },
+    {
+      "name": "Stephen Curry",
+      "pointspergame": "29.4",
+      "assistspergame": "6.3",
+      "reboundspergame": "6.1",
+      "image":
+    },
   ]
 }
