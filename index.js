@@ -1,12 +1,13 @@
 // Function to fetch data from JSON file
 
 async function fetchPlayerData(url) {
-  try {
-    const resp = await fetch(url);
+  const resp = await fetch(url);
+
+  if (resp.ok) {
     const data = await resp.json();
     return data;
-  } catch (error) {
-    console.error("Error fetching data:", error);
+  } else {
+    console.error("Error fetching data:", resp.statusText);
     return [];
   }
 }
