@@ -27,6 +27,7 @@ function createPlayerCard(player) {
   const card = document.createElement("div");
   card.classList.add("player-card");
 
+  //Different elements that are included on each card
   const playerName = document.createElement("h2");
   playerName.textContent = "Player Name: " + player.name;
 
@@ -60,7 +61,7 @@ function createPlayerCard(player) {
     }
   });
 
-  // event listeners that allow background color to change on cards when mouse hovers over them
+  // two event listeners that allow background color to change on cards when mouse hovers over them
   card.addEventListener("mouseover", () => {
     card.style.backgroundColor = "#ddd";
     card.style.boxShadow = "0 2px 8px rgba (0, 0, 0, 0.2)";
@@ -71,10 +72,12 @@ function createPlayerCard(player) {
     card.style.boxShadow = "0 2px 4px rgba (0, 0, 0, 0.1)";
   });
 
+  //Attaches stats to the stats container
   statsContainer.appendChild(pointsPerGame);
   statsContainer.appendChild(assistsPerGame);
   statsContainer.appendChild(reboundsPerGame);
 
+  //Attaches elements to the player card
   card.appendChild(playerName);
   card.appendChild(playerImage);
   card.appendChild(toggleStatsButton);
