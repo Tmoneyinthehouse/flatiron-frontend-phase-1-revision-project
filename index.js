@@ -49,7 +49,7 @@ function createPlayerCard(player) {
   statsContainer.classList.add("stats-container");
   statsContainer.style.display = "none";
 
-  // Button that shows and hides the stats of each player on respective card
+  // Button that shows and hides the stats of each player on respective card, event listener
   const toggleStatsButton = document.createElement("button");
   toggleStatsButton.textContent = "Toggle Stats";
   toggleStatsButton.addEventListener("click", () => {
@@ -58,6 +58,17 @@ function createPlayerCard(player) {
     } else {
       statsContainer.style.display = "none";
     }
+  });
+
+  // event listeners that allow background color to change on cards when mouse hovers over them
+  card.addEventListener("mouseover", () => {
+    card.style.backgroundColor = "#ddd";
+    card.style.boxShadow = "0 2px 8px rgba (0, 0, 0, 0.2)";
+  });
+
+  card.addEventListener("mouseout", () => {
+    card.style.backgroundColor = "#f9f9f9";
+    card.style.boxShadow = "0 2px 4px rgba (0, 0, 0, 0.1)";
   });
 
   statsContainer.appendChild(pointsPerGame);
